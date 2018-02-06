@@ -7,8 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 <<<<<<< HEAD
+<<<<<<< HEAD
   title = 'Tour Of Heroes';
 =======
   title = 'Tour Of Heroess';
 >>>>>>> 345c487afbe444b9980c118972af297b6bae03d4
+=======
+  title = 'Tour Of Heroes';
+>>>>>>> ed0ed5d2078186086d23bfc95184e06558de6e8a
 }
