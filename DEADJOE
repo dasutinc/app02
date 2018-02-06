@@ -331,3 +331,183 @@ Processing '/etc/joe/editorrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Tue Feb  6 13:57:07 2018
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+
+*** File '/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG'
+
+
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Tue Feb  6 14:18:54 2018
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG
+
+*** File '/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG'
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 3 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# Changes to be committed:
+#	modified:   .angular-cli.json
+#	modified:   .editorconfig
+#	modified:   .gitignore
+#	modified:   DEADJOE
+#	modified:   README.md
+#	modified:   e2e/app.e2e-spec.ts
+#	modified:   e2e/app.po.ts
+#	modified:   e2e/tsconfig.e2e.json
+#	modified:   karma.conf.js
+#	modified:   package.json
+#	modified:   protractor.conf.js
+#	modified:   src/app/app.component.css
+#	modified:   src/app/app.component.html
+#	modified:   src/app/app.component.spec.ts
+#	modified:   src/app/app.component.ts
+#	modified:   src/app/app.module.ts
+#	modified:   src/assets/.gitkeep
+#	modified:   src/environments/environment.prod.ts
+#	modified:   src/environments/environment.ts
+#	modified:   src/favicon.ico
+#	modified:   src/index.html
+#	modified:   src/main.ts
+#	modified:   src/polyfills.ts
+#	modified:   src/styles.css
+#	modified:   src/test.ts
+#	modified:   src/tsconfig.app.json
+#	modified:   src/tsconfig.spec.json
+#	modified:   src/typings.d.ts
+#	modified:   tsconfig.json
+#	modified:   tslint.json
+#
+i
+
+:wq
+
+
+
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Tue Feb  6 14:20:02 2018
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+
+*** File '/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG'
+
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+
+quit
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Tue Feb  6 14:24:53 2018
+*** JOE was aborted because the terminal closed
+
+*** File '* Grep Log *'
+/bin/sh: 3: Syntax error: ")" unexpected
+quit
+git add .
+
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG
+* Grep Log *
+
+*** File '/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG'
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 3 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# Changes to be committed:
+#	modified:   .angular-cli.json
+#	modified:   .editorconfig
+#	modified:   .gitignore
+#	modified:   DEADJOE
+#	modified:   README.md
+#	modified:   e2e/app.e2e-spec.ts
+#	modified:   e2e/app.po.ts
+#	modified:   e2e/tsconfig.e2e.json
+#	modified:   karma.conf.js
+#	modified:   package.json
+#	modified:   protractor.conf.js
+#	modified:   src/app/app.component.css
+#	modified:   src/app/app.component.html
+#	modified:   src/app/app.component.spec.ts
+#	modified:   src/app/app.component.ts
+#	modified:   src/app/app.module.ts
+#	modified:   src/assets/.gitkeep
+#	modified:   src/environments/environment.prod.ts
+#	modified:   src/environments/environment.ts
+#	modified:   src/favicon.ico
+#	modified:   src/index.html
+#	modified:   src/main.ts
+#	modified:   src/polyfills.ts
+#	modified:   src/styles.css
+#	modified:   src/test.ts
+#	modified:   src/tsconfig.app.json
+#	modified:   src/tsconfig.spec.json
+#	modified:   src/typings.d.ts
+#	modified:   tsconfig.json
+#	modified:   tslint.json
+#
+:wq
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
