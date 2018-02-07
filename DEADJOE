@@ -511,3 +511,1359 @@ Processing '/etc/joe/editorrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Tue Feb  6 16:02:16 2018
+*** JOE was aborted because the terminal closed
+
+*** File '* Shell 2 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ ls -n
+total 88
+-rw-------   1 306544 90 17472 Feb  6 14:24 DEADJOE
+drwxrwxr-x   2 306544 90  4096 Feb  6 13:54 [1m[34me2e
+-rw-------   1 306544 90   923 Feb  6 13:54 karma.conf.js
+drwxrwxr-x 949 306544 90 36864 Feb  1 15:29 [1m[34mnode_modules
+-rw-------   1 306544 90  1306 Feb  6 13:54 package.json
+-rw-------   1 306544 90   722 Feb  6 13:54 protractor.conf.js
+-rw-------   1 306544 90  1035 Feb  6 13:54 README.md
+drwxrwxr-x   5 306544 90  4096 Feb  6 13:54 [1m[34msrc
+-rw-------   1 306544 90   363 Feb  6 13:54 tsconfig.json
+-rw-------   1 306544 90  3012 Feb  6 13:54 tslint.json
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git push -u origin master
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+To https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git merge --abort
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git merge --abort
+fatal: There is no merge to abort (MERGE_HEAD missing).
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 4), reused 0 (delta 0)
+Unpacking objects: 100% (5/5), done.
+From https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+   66453d8..bd6f947  master     -> origin/master
+CONFLICT (modify/delete): DEADJOE deleted in bd6f947999ff20f4bab284e82b1bc56547accbe3 and modified in HEAD. Version HEAD of DEADJOE left in tree.
+Automatic merge failed; fix conflicts and then commit the result.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 2 and 8 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+Unmerged paths:
+  (use "git add/rm <file>..." as appropriate to mark resolution)
+
+	[31mdeleted by them: DEADJOE
+
+no changes added to commit (use "git add" and/or "git commit -a")
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add .
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 2 and 8 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+nothing to commit, working directory clean
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ node_modules/@angular/cli/bin/ng build --bh /~1218170/angular-2018/angular-tour-of-heroes/dist/
+Date: [1m[37m2018-02-06T15:25:38.776Z[m                                                          
+Hash: [1m[37m7cd52023aaf78c41ed02
+Time: [1m[37m13837[m[1mms
+chunk {[1m[33minline[m[1m} [32minline.bundle.js, inline.bundle.js.map[m[1m (inline) 5.83 kB [33m[entry][32m [rendered]
+chunk {[1m[33mmain[m[1m} [32mmain.bundle.js, main.bundle.js.map[m[1m (main) 7.76 kB [33m[initial][32m [rendered]
+chunk {[1m[33mpolyfills[m[1m} [32mpolyfills.bundle.js, polyfills.bundle.js.map[m[1m (polyfills) 201 kB [33m[initial][32m [rendered]
+chunk {[1m[33mstyles[m[1m} [32mstyles.bundle.js, styles.bundle.js.map[m[1m (styles) 11.4 kB [33m[initial][32m [rendered]
+chunk {[1m[33mvendor[m[1m} [32mvendor.bundle.js, vendor.bundle.js.map[m[1m (vendor) 2.43 MB [33m[initial][32m [rendered]
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ cd ../
+1218170@csl-student:~/public_html/angular-2018$ cd ../
+1218170@csl-student:~/public_html$ cd ../
+1218170@csl-student:~$ chmod 775 -R public_html
+1218170@csl-student:~$ node_modules/@angular/cli/bin/ng build --bh /~1218170/angular-2018/angular-tour-of-heroes/dist/
+bash: node_modules/@angular/cli/bin/ng: No such file or directory
+1218170@csl-student:~$ cd public_html
+1218170@csl-student:~/public_html$ cd angular-2018
+1218170@csl-student:~/public_html/angular-2018$ cd angular-tour-of-heroes
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ node_modules/@angular/cli/bin/ng build --bh /~1218170/angular-2018/angular-tour-of-heroes/dist/
+Date: [1m[37m2018-02-06T15:36:03.962Z[m                                                          
+Hash: [1m[37m7cd52023aaf78c41ed02
+Time: [1m[37m15883[m[1mms
+chunk {[1m[33minline[m[1m} [32minline.bundle.js, inline.bundle.js.map[m[1m (inline) 5.83 kB [33m[entry][32m [rendered]
+chunk {[1m[33mmain[m[1m} [32mmain.bundle.js, main.bundle.js.map[m[1m (main) 7.76 kB [33m[initial][32m [rendered]
+chunk {[1m[33mpolyfills[m[1m} [32mpolyfills.bundle.js, polyfills.bundle.js.map[m[1m (polyfills) 201 kB [33m[initial][32m [rendered]
+chunk {[1m[33mstyles[m[1m} [32mstyles.bundle.js, styles.bundle.js.map[m[1m (styles) 11.4 kB [33m[initial][32m [rendered]
+chunk {[1m[33mvendor[m[1m} [32mvendor.bundle.js, vendor.bundle.js.map[m[1m (vendor) 2.43 MB [33m[initial][32m [rendered]
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ cd public_html
+bash: cd: public_html: No such file or directory
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ cd ../
+1218170@csl-student:~/public_html/angular-2018$ cd ../
+1218170@csl-student:~/public_html$ cd ../
+1218170@csl-student:~$ chmod 775 -R public_html
+1218170@csl-student:~$ 
+*** File '* Shell 4 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+Did you mean this?
+	status
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 2 and 7 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+nothing to commit, working directory clean
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG (git-commit)                                     Row 1    Col 1    4:02  Ctrl-K H for help
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+[32m# Conflicts:
+[32m#       src/app/app.component.ts
+[32m#
+[32m# It looks like you may be committing a merge.
+[32m# If this is not correct, please remove the file
+[32m#       .git/MERGE_HEAD
+[32m# and try again.
+
+
+[32m# Please enter the commit message for your changes. Lines starting
+[32m# with '#' will be ignored, and an empty message aborts the commit.
+[32m# On branch master
+[32m# Your branch and 'origin/master' have diverged,
+[32m# and have 2 and 7 different commits each, respectively.
+[32m#   (use "git pull" to merge the remote branch into yours)
+[32m#
+[32m# All conflicts fixed but you are still merging.
+[32m#
+
+
+
+
+
+
+
+
+
+
+
+
+
+Could not create lock. (I) edit anyway, (Q) cancel edit?                      [7m                                                                        
+*** File '* Shell 3 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ ls -n
+total 88
+-rw-------   1 306544 90 17472 Feb  6 14:24 DEADJOE
+drwxrwxr-x   2 306544 90  4096 Feb  6 13:54 [1m[34me2e
+-rw-------   1 306544 90   923 Feb  6 13:54 karma.conf.js
+drwxrwxr-x 949 306544 90 36864 Feb  1 15:29 [1m[34mnode_modules
+-rw-------   1 306544 90  1306 Feb  6 13:54 package.json
+-rw-------   1 306544 90   722 Feb  6 13:54 protractor.conf.js
+-rw-------   1 306544 90  1035 Feb  6 13:54 README.md
+drwxrwxr-x   5 306544 90  4096 Feb  6 13:54 [1m[34msrc
+-rw-------   1 306544 90   363 Feb  6 13:54 tsconfig.json
+-rw-------   1 306544 90  3012 Feb  6 13:54 tslint.json
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull --rebase origin master
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ dit status
+No command 'dit' found, but there are 24 similar ones
+dit: command not found
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 2 and 4 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+nothing to commit, working directory clean
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git mergetool
+
+This message is displayed because 'merge.tool' is not configured.
+See 'git mergetool --tool-help' or 'git help config' for more details.
+'git mergetool' will now attempt to use one of the following tools:
+tortoisemerge emerge vimdiff
+No files need merging
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git revert -m
+error: switch `m' requires a value
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git revert -m --abort
+error: switch `m' expects a numerical value
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git revert -m 1
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git revert -m
+error: switch `m' requires a value
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git reset --hard origin
+fatal: ambiguous argument 'origin': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git fetch origin
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+remote: Counting objects: 15, done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 15 (delta 11), reused 0 (delta 0)
+Unpacking objects: 100% (15/15), done.
+From https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+   e927748..66453d8  master     -> origin/master
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ ls -n
+total 88
+-rw-------   1 306544 90 17472 Feb  6 14:24 DEADJOE
+drwxrwxr-x   2 306544 90  4096 Feb  6 13:54 [1m[34me2e
+-rw-------   1 306544 90   923 Feb  6 13:54 karma.conf.js
+drwxrwxr-x 949 306544 90 36864 Feb  1 15:29 [1m[34mnode_modules
+-rw-------   1 306544 90  1306 Feb  6 13:54 package.json
+-rw-------   1 306544 90   722 Feb  6 13:54 protractor.conf.js
+-rw-------   1 306544 90  1035 Feb  6 13:54 README.md
+drwxrwxr-x   5 306544 90  4096 Feb  6 13:54 [1m[34msrc
+-rw-------   1 306544 90   363 Feb  6 13:54 tsconfig.json
+-rw-------   1 306544 90  3012 Feb  6 13:54 tslint.json
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add .
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG (Modified)(git-commit)                           Row 3    Col 1    4:02  Ctrl-K H for help
+
+
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+[32m
+[32m# Conflicts:
+[32m#       src/app/app.component.ts
+[32m#
+[32m# It looks like you may be committing a merge.
+[32m# If this is not correct, please remove the file
+[32m#       .git/MERGE_HEAD
+[32m# and try again.
+
+[32m
+[32m# Please enter the commit message for your changes. Lines starting
+[32m# with '#' will be ignored, and an empty message aborts the commit.
+[32m# On branch master
+[32m# Your branch and 'origin/master' have diverged,
+[32m# and have 2 and 7 different commits each, respectively.
+[32m#   (use "git pull" to merge the remote branch into yours)
+[32m#
+[32m# All conflicts fixed but you are still merging.
+[32m#
+
+
+
+
+
+
+
+
+
+
+
+
+*** File '* Shell 1 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add .
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit 
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.g  Row 1    Col 1    4:02  Ctrl-K H for help
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+[32m# Conflicts:
+[32m#       src/app/app.component.ts
+[32m#
+[32m# It looks like you may be committing a merge.
+[32m# If this is not correct, please remove the file
+[32m#       .git/MERGE_HEAD
+[32m# and try again.
+
+
+[32m# Please enter the commit message for your changes. Lines starting
+[32m# with '#' will be ignored, and an empty message aborts the commit.
+[32m# On branch master
+[32m# Your branch and 'origin/master' have diverged,
+[32m# and have 2 and 4 different commits each, respectively.
+[32m#   (use "git pull" to merge the remote branch into yours)
+[32m#
+[32m# All conflicts fixed but you are still merging.
+[32m#
+
+
+
+
+
+
+
+
+
+
+
+
+
+Could not create lock. (I) edit anyway, (Q) cancel edit?                      [7m       
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG
+* Startup Log *
+* Shell 1 *
+* Startup Log *
+* Shell 1 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 2 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 2 *
+/home/stud/0/1218170/public_html/angular-2018/
+/home/stud/0/1218170/public_html/
+/home/stud/0/1218170/
+/home/stud/0/1218170/public_html/
+/home/stud/0/1218170/public_html/angular-2018/
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/
+/home/stud/0/1218170/public_html/angular-2018/
+/home/stud/0/1218170/public_html/
+/home/stud/0/1218170/
+
+*** File '/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG'
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+
+# Conflicts:
+#	src/app/app.component.ts
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 2 and 4 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still mergE
+
+
+
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Tue Feb  6 16:02:16 2018
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG
+* Startup Log *
+* Shell 1 *
+
+*** File '/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG'
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+
+# Conflicts:
+#	src/app/app.component.ts
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 2 and 4 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still mergE
+
+
+
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Tue Feb  6 16:02:16 2018
+*** JOE was aborted by UNIX signal 1
+
+*** File '* Shell 3 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ ls -n
+total 88
+-rw-------   1 306544 90 17472 Feb  6 14:24 DEADJOE
+drwxrwxr-x   2 306544 90  4096 Feb  6 13:54 [1m[34me2e
+-rw-------   1 306544 90   923 Feb  6 13:54 karma.conf.js
+drwxrwxr-x 949 306544 90 36864 Feb  1 15:29 [1m[34mnode_modules
+-rw-------   1 306544 90  1306 Feb  6 13:54 package.json
+-rw-------   1 306544 90   722 Feb  6 13:54 protractor.conf.js
+-rw-------   1 306544 90  1035 Feb  6 13:54 README.md
+drwxrwxr-x   5 306544 90  4096 Feb  6 13:54 [1m[34msrc
+-rw-------   1 306544 90   363 Feb  6 13:54 tsconfig.json
+-rw-------   1 306544 90  3012 Feb  6 13:54 tslint.json
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull --rebase origin master
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ dit status
+No command 'dit' found, but there are 24 similar ones
+dit: command not found
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 2 and 4 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+nothing to commit, working directory clean
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git mergetool
+
+This message is displayed because 'merge.tool' is not configured.
+See 'git mergetool --tool-help' or 'git help config' for more details.
+'git mergetool' will now attempt to use one of the following tools:
+tortoisemerge emerge vimdiff
+No files need merging
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git revert -m
+error: switch `m' requires a value
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git revert -m --abort
+error: switch `m' expects a numerical value
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git revert -m 1
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git revert -m
+error: switch `m' requires a value
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git reset --hard origin
+fatal: ambiguous argument 'origin': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git fetch origin
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+remote: Counting objects: 15, done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 15 (delta 11), reused 0 (delta 0)
+Unpacking objects: 100% (15/15), done.
+From https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+   e927748..66453d8  master     -> origin/master
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ ls -n
+total 88
+-rw-------   1 306544 90 17472 Feb  6 14:24 DEADJOE
+drwxrwxr-x   2 306544 90  4096 Feb  6 13:54 [1m[34me2e
+-rw-------   1 306544 90   923 Feb  6 13:54 karma.conf.js
+drwxrwxr-x 949 306544 90 36864 Feb  1 15:29 [1m[34mnode_modules
+-rw-------   1 306544 90  1306 Feb  6 13:54 package.json
+-rw-------   1 306544 90   722 Feb  6 13:54 protractor.conf.js
+-rw-------   1 306544 90  1035 Feb  6 13:54 README.md
+drwxrwxr-x   5 306544 90  4096 Feb  6 13:54 [1m[34msrc
+-rw-------   1 306544 90   363 Feb  6 13:54 tsconfig.json
+-rw-------   1 306544 90  3012 Feb  6 13:54 tslint.json
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add .
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG (Modified)(git-commit)                           Row 2    Col 1    3:17  Ctrl-K H for help
+
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+[32m
+[32m# Conflicts:
+[32m#       src/app/app.component.ts
+[32m#
+[32m# It looks like you may be committing a merge.
+[32m# If this is not correct, please remove the file
+[32m#       .git/MERGE_HEAD
+[32m# and try again.
+
+[32m
+[32m# Please enter the commit message for your changes. Lines starting
+[32m# with '#' will be ignored, and an empty message aborts the commit.
+[32m# On branch master
+[32m# Your branch and 'origin/master' have diverged,
+[32m# and have 2 and 7 different commits each, respectively.
+[32m#   (use "git pull" to merge the remote branch into yours)
+[32m#
+[32m# All conflicts fixed but you are still merging.
+[32m#
+
+
+
+
+
+
+
+
+
+
+
+
+
+*** File '* Shell 1 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add .
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit 
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.g  Row 1    Col 1    3:17  Ctrl-K H for help
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+[32m# Conflicts:
+[32m#       src/app/app.component.ts
+[32m#
+[32m# It looks like you may be committing a merge.
+[32m# If this is not correct, please remove the file
+[32m#       .git/MERGE_HEAD
+[32m# and try again.
+
+
+[32m# Please enter the commit message for your changes. Lines starting
+[32m# with '#' will be ignored, and an empty message aborts the commit.
+[32m# On branch master
+[32m# Your branch and 'origin/master' have diverged,
+[32m# and have 2 and 4 different commits each, respectively.
+[32m#   (use "git pull" to merge the remote branch into yours)
+[32m#
+[32m# All conflicts fixed but you are still merging.
+[32m#
+
+
+
+
+
+
+
+
+
+
+
+
+
+Could not create lock. (I) edit anyway, (Q) cancel edit?                      [7m       
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG
+* Startup Log *
+* Shell 1 *
+* Startup Log *
+* Shell 1 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 4 *
+
+*** File '/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG'
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+
+# Conflicts:
+#	src/app/app.component.ts
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 2 and 4 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still mergE
+
+
+
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Tue Feb  6 16:02:16 2018
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG
+* Startup Log *
+* Shell 1 *
+
+*** File '/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG'
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+
+# Conflicts:
+#	src/app/app.component.ts
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 2 and 4 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still mergE
+
+
+
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Tue Feb  6 16:02:16 2018
+*** JOE was aborted by UNIX signal 1
+
+*** File '* Shell 1 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add .
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit 
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.g  Row 1    Col 1    2:44  Ctrl-K H for help
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+[32m# Conflicts:
+[32m#       src/app/app.component.ts
+[32m#
+[32m# It looks like you may be committing a merge.
+[32m# If this is not correct, please remove the file
+[32m#       .git/MERGE_HEAD
+[32m# and try again.
+
+
+[32m# Please enter the commit message for your changes. Lines starting
+[32m# with '#' will be ignored, and an empty message aborts the commit.
+[32m# On branch master
+[32m# Your branch and 'origin/master' have diverged,
+[32m# and have 2 and 4 different commits each, respectively.
+[32m#   (use "git pull" to merge the remote branch into yours)
+[32m#
+[32m# All conflicts fixed but you are still merging.
+[32m#
+
+
+
+
+
+
+
+
+
+
+
+
+
+Could not create lock. (I) edit anyway, (Q) cancel edit?                      [7m
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG
+* Startup Log *
+* Shell 1 *
+* Startup Log *
+* Shell 1 *
+* Startup Log *
+* Shell 3 *
+
+*** File '/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG'
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+
+# Conflicts:
+#	src/app/app.component.ts
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 2 and 4 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still mergE
+
+
+
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Tue Feb  6 16:02:16 2018
+*** JOE was aborted by UNIX signal 1
+
+*** File '* Shell 4 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+Did you mean this?
+	status
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 2 and 7 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+nothing to commit, working directory clean
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG (git-commit)                                     Row 1    Col 1    3:18  Ctrl-K H for help
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+[32m# Conflicts:
+[32m#       src/app/app.component.ts
+[32m#
+[32m# It looks like you may be committing a merge.
+[32m# If this is not correct, please remove the file
+[32m#       .git/MERGE_HEAD
+[32m# and try again.
+
+
+[32m# Please enter the commit message for your changes. Lines starting
+[32m# with '#' will be ignored, and an empty message aborts the commit.
+[32m# On branch master
+[32m# Your branch and 'origin/master' have diverged,
+[32m# and have 2 and 7 different commits each, respectively.
+[32m#   (use "git pull" to merge the remote branch into yours)
+[32m#
+[32m# All conflicts fixed but you are still merging.
+[32m#
+
+
+
+
+
+
+
+
+
+
+
+
+
+Could not create lock. (I) edit anyway, (Q) cancel edit?                      [7m
+*** File '* Shell 3 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ ls -n
+total 88
+-rw-------   1 306544 90 17472 Feb  6 14:24 DEADJOE
+drwxrwxr-x   2 306544 90  4096 Feb  6 13:54 [1m[34me2e
+-rw-------   1 306544 90   923 Feb  6 13:54 karma.conf.js
+drwxrwxr-x 949 306544 90 36864 Feb  1 15:29 [1m[34mnode_modules
+-rw-------   1 306544 90  1306 Feb  6 13:54 package.json
+-rw-------   1 306544 90   722 Feb  6 13:54 protractor.conf.js
+-rw-------   1 306544 90  1035 Feb  6 13:54 README.md
+drwxrwxr-x   5 306544 90  4096 Feb  6 13:54 [1m[34msrc
+-rw-------   1 306544 90   363 Feb  6 13:54 tsconfig.json
+-rw-------   1 306544 90  3012 Feb  6 13:54 tslint.json
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull --rebase origin master
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ dit status
+No command 'dit' found, but there are 24 similar ones
+dit: command not found
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 2 and 4 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+nothing to commit, working directory clean
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git mergetool
+
+This message is displayed because 'merge.tool' is not configured.
+See 'git mergetool --tool-help' or 'git help config' for more details.
+'git mergetool' will now attempt to use one of the following tools:
+tortoisemerge emerge vimdiff
+No files need merging
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git revert -m
+error: switch `m' requires a value
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git revert -m --abort
+error: switch `m' expects a numerical value
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git revert -m 1
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git revert -m
+error: switch `m' requires a value
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git reset --hard origin
+fatal: ambiguous argument 'origin': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git fetch origin
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+remote: Counting objects: 15, done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 15 (delta 11), reused 0 (delta 0)
+Unpacking objects: 100% (15/15), done.
+From https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+   e927748..66453d8  master     -> origin/master
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ ls -n
+total 88
+-rw-------   1 306544 90 17472 Feb  6 14:24 DEADJOE
+drwxrwxr-x   2 306544 90  4096 Feb  6 13:54 [1m[34me2e
+-rw-------   1 306544 90   923 Feb  6 13:54 karma.conf.js
+drwxrwxr-x 949 306544 90 36864 Feb  1 15:29 [1m[34mnode_modules
+-rw-------   1 306544 90  1306 Feb  6 13:54 package.json
+-rw-------   1 306544 90   722 Feb  6 13:54 protractor.conf.js
+-rw-------   1 306544 90  1035 Feb  6 13:54 README.md
+drwxrwxr-x   5 306544 90  4096 Feb  6 13:54 [1m[34msrc
+-rw-------   1 306544 90   363 Feb  6 13:54 tsconfig.json
+-rw-------   1 306544 90  3012 Feb  6 13:54 tslint.json
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add .
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG (Modified)(git-commit)                           Row 3    Col 1    3:18  Ctrl-K H for help
+
+
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+[32m
+[32m# Conflicts:
+[32m#       src/app/app.component.ts
+[32m#
+[32m# It looks like you may be committing a merge.
+[32m# If this is not correct, please remove the file
+[32m#       .git/MERGE_HEAD
+[32m# and try again.
+
+[32m
+[32m# Please enter the commit message for your changes. Lines starting
+[32m# with '#' will be ignored, and an empty message aborts the commit.
+[32m# On branch master
+[32m# Your branch and 'origin/master' have diverged,
+[32m# and have 2 and 7 different commits each, respectively.
+[32m#   (use "git pull" to merge the remote branch into yours)
+[32m#
+[32m# All conflicts fixed but you are still merging.
+[32m#
+
+
+
+
+
+
+
+
+
+
+
+
+*** File '* Shell 1 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add .
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit 
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.g  Row 1    Col 1    3:18  Ctrl-K H for help
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+[32m# Conflicts:
+[32m#       src/app/app.component.ts
+[32m#
+[32m# It looks like you may be committing a merge.
+[32m# If this is not correct, please remove the file
+[32m#       .git/MERGE_HEAD
+[32m# and try again.
+
+
+[32m# Please enter the commit message for your changes. Lines starting
+[32m# with '#' will be ignored, and an empty message aborts the commit.
+[32m# On branch master
+[32m# Your branch and 'origin/master' have diverged,
+[32m# and have 2 and 4 different commits each, respectively.
+[32m#   (use "git pull" to merge the remote branch into yours)
+[32m#
+[32m# All conflicts fixed but you are still merging.
+[32m#
+
+
+
+
+
+
+
+
+
+
+
+
+
+Could not create lock. (I) edit anyway, (Q) cancel edit?                      [7m       
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG
+* Startup Log *
+* Shell 1 *
+* Startup Log *
+* Shell 1 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 2 *
+
+*** File '/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG'
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+
+# Conflicts:
+#	src/app/app.component.ts
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 2 and 4 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still mergE
+
+
+
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Tue Feb  6 16:02:16 2018
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG
+
+*** File '/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG'
+
+
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+# Conflicts:
+#	src/app/app.component.ts
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 2 and 7 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Tue Feb  6 16:02:16 2018
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/COMMIT_EDITMSG
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Tue Feb  6 16:02:16 2018
+*** JOE was aborted because the terminal closed
