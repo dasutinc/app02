@@ -1867,3 +1867,649 @@ Finished processing /etc/joe/editorrc
 
 *** These modified files were found in JOE when it aborted on Tue Feb  6 16:02:16 2018
 *** JOE was aborted because the terminal closed
+
+*** These modified files were found in JOE when it aborted on Wed Feb  7 12:44:20 2018
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+
+*** These modified files were found in JOE when it aborted on Wed Feb  7 12:44:20 2018
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+* Startup Log *
+* Shell 4 *
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+* Startup Log *
+* Shell 4 *
+
+*** File '* Startup Log *'
+
+*** These modified files were found in JOE when it aborted on Wed Feb  7 12:44:20 2018
+*** JOE was aborted by UNIX signal 1
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Wed Feb  7 12:44:20 2018
+*** JOE was aborted by UNIX signal 1
+
+*** These modified files were found in JOE when it aborted on Wed Feb  7 12:44:20 2018
+*** JOE was aborted by UNIX signal 1
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** File '* Shell 3 *'
+
+*** File '* Shell 2 *'
+
+*** File '* Shell 4 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git merge
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG           Row 1    Col 1   10:26  Ctrl-K H for help
+Merge remote-tracking branch 'refs/remotes/origin/master'
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+sage aborts
+# the commit.
+
+
+
+
+
+
+
+
+
+
+
+
+[7m** Joe's Own Editor v4.1 ** (utf-8) ** Copyright © 2015 **
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit -m "heroes1"
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 6 and 1 different commit each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+nothing to commit, working directory clean
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG           Row 1    Col 1   10:24  Ctrl-K H for help
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[7m[mLocked by 1218170@here.24619. (S)teal lock, (I) edit anyway, (Q) cancel edit? [7m
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ ls -n
+total 144
+-rwxrwxr-x   1 306544 90 67609 Feb  6 16:02 [1m[32mDEADJOE
+drwxrwxr-x   2 306544 90  4096 Feb  7 08:43 [1m[34mdist
+drwxrwxr-x   2 306544 90  4096 Feb  6 13:54 [1m[34me2e
+-rwxrwxr-x   1 306544 90   923 Feb  6 13:54 [1m[32mkarma.conf.js
+drwxrwxr-x 949 306544 90 36864 Feb  1 15:29 [1m[34mnode_modules
+-rwxrwxr-x   1 306544 90  1306 Feb  6 13:54 [1m[32mpackage.json
+-rwxrwxr-x   1 306544 90   722 Feb  6 13:54 [1m[32mprotractor.conf.js
+-rwxrwxr-x   1 306544 90  1035 Feb  6 13:54 [1m[32mREADME.md
+drwxrwxr-x   5 306544 90  4096 Feb  7 09:53 [1m[34msrc
+-rwxrwxr-x   1 306544 90   363 Feb  6 13:54 [1m[32mtsconfig.json
+-rwxrwxr-x   1 306544 90  3012 Feb  6 13:54 [1m[32mtslint.json
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commi
+t -m "test"
+[master cb86065] test
+ 2 files changed, 24 insertions(+), 20 deletions(-)
+ rewrite src/app/app.component.html (99%)
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ node_modu
+les/@angular/cli/bin/ng build --bh /~1218170/angular-2018/angular-tour-of-heroes
+/dist/
+Date: [1m[37m2018-02-07T09:56:41.773Z[m                                                          
+Hash: [1m[37m9c155f0742c9ff6ea0a5
+Time: [1m[37m20232[m[1mms
+chunk {[1m[33minline[m[1m} [32minline.bundle.js, inline.bundle.js.map[m[1m (inline) 5.83 kB [33m[entry][32m [rendered]
+chunk {[1m[33mmain[m[1m} [32mmain.bundle.js, main.bundle.js.map[m[1m (main) 6.6 kB [33m[initial][32m [rendered]
+chunk {[1m[33mpolyfills[m[1m} [32mpolyfills.bundle.js, polyfills.bundle.js.map[m[1m (polyfills) 201 kB [33m[initial][32m [rendered]
+chunk {[1m[33mstyles[m[1m} [32mstyles.bundle.js, styles.bundle.js.map[m[1m (styles) 11.8 kB [33m[initial][32m [rendered]
+chunk {[1m[33mvendor[m[1m} [32mvendor.bundle.js, vendor.bundle.js.map[m[1m (vendor) 2.43 MB [33m[initial][32m [rendered]
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ cd ../
+1218170@csl-student:~/public_html/angular-2018$ cd ../
+1218170@csl-student:~/public_html$ cd ../
+1218170@csl-student:~$ chmod 775 -R public_html
+1218170@csl-student:~$ cd public_html
+1218170@csl-student:~/public_html$ cd angular-2018
+1218170@csl-student:~/public_html/angular-2018$ cd angular-tour-of-heroes
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ node_modules/@angular/cli/bin/ng generate component heroes
+  [32mcreate[m src/app/heroes/heroes.component.css (0 bytes)
+  [32mcreate[m src/app/heroes/heroes.component.html (25 bytes)
+  [32mcreate[m src/app/heroes/heroes.component.spec.ts (628 bytes)
+  [32mcreate[m src/app/heroes/heroes.component.ts (269 bytes)
+  [33mupdate[m src/app/app.module.ts (398 bytes)
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add . -A
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit -m "heroes comp"
+[master 9b02a4c] heroes comp
+ 5 files changed, 46 insertions(+), 1 deletion(-)
+ create mode 100644 src/app/heroes/heroes.component.css
+ create mode 100644 src/app/heroes/heroes.component.html
+ create mode 100644 src/app/heroes/heroes.component.spec.ts
+ create mode 100644 src/app/heroes/heroes.component.ts
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git push -u
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behaviour, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behaviour now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behaviour, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config
+*** File '* Shell 2 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit -m "heroes1"
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 6 and 1 different commit each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+nothing to commit, working directory clean
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG           Row 1    Col 1   10:26  Ctrl-K H for help
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notice: File on disk changed! (hit ^C to continue)                                                        
+*** File '* Shell 4 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ ls -n
+total 144
+-rwxrwxr-x   1 306544 90 67609 Feb  6 16:02 [1m[32mDEADJOE
+drwxrwxr-x   2 306544 90  4096 Feb  7 08:43 [1m[34mdist
+drwxrwxr-x   2 306544 90  4096 Feb  6 13:54 [1m[34me2e
+-rwxrwxr-x   1 306544 90   923 Feb  6 13:54 [1m[32mkarma.conf.js
+drwxrwxr-x 949 306544 90 36864 Feb  1 15:29 [1m[34mnode_modules
+-rwxrwxr-x   1 306544 90  1306 Feb  6 13:54 [1m[32mpackage.json
+-rwxrwxr-x   1 306544 90   722 Feb  6 13:54 [1m[32mprotractor.conf.js
+-rwxrwxr-x   1 306544 90  1035 Feb  6 13:54 [1m[32mREADME.md
+drwxrwxr-x   5 306544 90  4096 Feb  7 09:53 [1m[34msrc
+-rwxrwxr-x   1 306544 90   363 Feb  6 13:54 [1m[32mtsconfig.json
+-rwxrwxr-x   1 306544 90  3012 Feb  6 13:54 [1m[32mtslint.json
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commi
+t -m "test"
+[master cb86065] test
+ 2 files changed, 24 insertions(+), 20 deletions(-)
+ rewrite src/app/app.component.html (99%)
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ node_modu
+les/@angular/cli/bin/ng build --bh /~1218170/angular-2018/angular-tour-of-heroes
+/dist/
+Date: [1m[37m2018-02-07T09:56:41.773Z[m                                                          
+Hash: [1m[37m9c155f0742c9ff6ea0a5
+Time: [1m[37m20232[m[1mms
+chunk {[1m[33minline[m[1m} [32minline.bundle.js, inline.bundle.js.map[m[1m (inline) 5.83 kB [33m[entry][32m [rendered]
+chunk {[1m[33mmain[m[1m} [32mmain.bundle.js, main.bundle.js.map[m[1m (main) 6.6 kB [33m[initial][32m [rendered]
+chunk {[1m[33mpolyfills[m[1m} [32mpolyfills.bundle.js, polyfills.bundle.js.map[m[1m (polyfills) 201 kB [33m[initial][32m [rendered]
+chunk {[1m[33mstyles[m[1m} [32mstyles.bundle.js, styles.bundle.js.map[m[1m (styles) 11.8 kB [33m[initial][32m [rendered]
+chunk {[1m[33mvendor[m[1m} [32mvendor.bundle.js, vendor.bundle.js.map[m[1m (vendor) 2.43 MB [33m[initial][32m [rendered]
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ cd ../
+1218170@csl-student:~/public_html/angular-2018$ cd ../
+1218170@csl-student:~/public_html$ cd ../
+1218170@csl-student:~$ chmod 775 -R public_html
+1218170@csl-student:~$ cd public_html
+1218170@csl-student:~/public_html$ cd angular-2018
+1218170@csl-student:~/public_html/angular-2018$ cd angular-tour-of-heroes
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ node_modules/@angular/cli/bin/ng generate component heroes
+  [32mcreate[m src/app/heroes/heroes.component.css (0 bytes)
+  [32mcreate[m src/app/heroes/heroes.component.html (25 bytes)
+  [32mcreate[m src/app/heroes/heroes.component.spec.ts (628 bytes)
+  [32mcreate[m src/app/heroes/heroes.component.ts (269 bytes)
+  [33mupdate[m src/app/app.module.ts (398 bytes)
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add . -A
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit -m "heroes comp"
+[master 9b02a4c] heroes comp
+ 5 files changed, 46 insertions(+), 1 deletion(-)
+ create mode 100644 src/app/heroes/heroes.component.css
+ create mode 100644 src/app/heroes/heroes.component.html
+ create mode 100644 src/app/heroes/heroes.component.spec.ts
+ create mode 100644 src/app/heroes/heroes.component.ts
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git push -u
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behaviour, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behaviour now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behaviour, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+To https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git remote add origin https://fsegitlab.wlv.ac.uk/1218
+170/angular-tour-of-heroes.git
+fatal: remote origin already exists.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git push -u origin master
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+To https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG           Row 1    Col 1   10:24  Ctrl-K H for help
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[7m** Joe's Own Editor v4.1 ** (utf-8) ** Copyright © 2015 **
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+* Startup Log *
+* Shell 4 *
+/home/stud/0/1218170/public_html/angular-2018/
+/home/stud/0/1218170/public_html/
+/home/stud/0/1218170/
+/home/stud/0/1218170/public_html/
+/home/stud/0/1218170/public_html/angular-2018/
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 2 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 2 *
+* Startup Log *
+* Shell 3 *
+
+*** File '* Startup Log *'
+' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+To https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git remote add origin https://fsegitlab.wlv.ac.uk/1218
+170/angular-tour-of-heroes.git
+fatal: remote origin already exists.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git push -u origin master
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+To https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG           Row 1    Col 1   10:23  Ctrl-K H for help
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[7m** Joe's Own Editor v4.1 ** (utf-8) ** Copyright © 2015 **
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+* Startup Log *
+* Shell 4 *
+/home/stud/0/1218170/public_html/angular-2018/
+/home/stud/0/1218170/public_html/
+/home/stud/0/1218170/
+/home/stud/0/1218170/public_html/
+/home/stud/0/1218170/public_html/angular-2018/
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 2 *
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** File '* Shell 4 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ ls -n
+total 144
+-rwxrwxr-x   1 306544 90 67609 Feb  6 16:02 [1m[32mDEADJOE
+drwxrwxr-x   2 306544 90  4096 Feb  7 08:43 [1m[34mdist
+drwxrwxr-x   2 306544 90  4096 Feb  6 13:54 [1m[34me2e
+-rwxrwxr-x   1 306544 90   923 Feb  6 13:54 [1m[32mkarma.conf.js
+drwxrwxr-x 949 306544 90 36864 Feb  1 15:29 [1m[34mnode_modules
+-rwxrwxr-x   1 306544 90  1306 Feb  6 13:54 [1m[32mpackage.json
+-rwxrwxr-x   1 306544 90   722 Feb  6 13:54 [1m[32mprotractor.conf.js
+-rwxrwxr-x   1 306544 90  1035 Feb  6 13:54 [1m[32mREADME.md
+drwxrwxr-x   5 306544 90  4096 Feb  7 09:53 [1m[34msrc
+-rwxrwxr-x   1 306544 90   363 Feb  6 13:54 [1m[32mtsconfig.json
+-rwxrwxr-x   1 306544 90  3012 Feb  6 13:54 [1m[32mtslint.json
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commi
+t -m "test"
+[master cb86065] test
+ 2 files changed, 24 insertions(+), 20 deletions(-)
+ rewrite src/app/app.component.html (99%)
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ node_modu
+les/@angular/cli/bin/ng build --bh /~1218170/angular-2018/angular-tour-of-heroes
+/dist/
+Date: [1m[37m2018-02-07T09:56:41.773Z[m                                                          
+Hash: [1m[37m9c155f0742c9ff6ea0a5
+Time: [1m[37m20232[m[1mms
+chunk {[1m[33minline[m[1m} [32minline.bundle.js, inline.bundle.js.map[m[1m (inline) 5.83 kB [33m[entry][32m [rendered]
+chunk {[1m[33mmain[m[1m} [32mmain.bundle.js, main.bundle.js.map[m[1m (main) 6.6 kB [33m[initial][32m [rendered]
+chunk {[1m[33mpolyfills[m[1m} [32mpolyfills.bundle.js, polyfills.bundle.js.map[m[1m (polyfills) 201 kB [33m[initial][32m [rendered]
+chunk {[1m[33mstyles[m[1m} [32mstyles.bundle.js, styles.bundle.js.map[m[1m (styles) 11.8 kB [33m[initial][32m [rendered]
+chunk {[1m[33mvendor[m[1m} [32mvendor.bundle.js, vendor.bundle.js.map[m[1m (vendor) 2.43 MB [33m[initial][32m [rendered]
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ cd ../
+1218170@csl-student:~/public_html/angular-2018$ cd ../
+1218170@csl-student:~/public_html$ cd ../
+1218170@csl-student:~$ chmod 775 -R public_html
+1218170@csl-student:~$ cd public_html
+1218170@csl-student:~/public_html$ cd angular-2018
+1218170@csl-student:~/public_html/angular-2018$ cd angular-tour-of-heroes
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ node_modules/@angular/cli/bin/ng generate component heroes
+  [32mcreate[m src/app/heroes/heroes.component.css (0 bytes)
+  [32mcreate[m src/app/heroes/heroes.component.html (25 bytes)
+  [32mcreate[m src/app/heroes/heroes.component.spec.ts (628 bytes)
+  [32mcreate[m src/app/heroes/heroes.component.ts (269 bytes)
+  [33mupdate[m src/app/app.module.ts (398 bytes)
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add . -A
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit -m "heroes comp"
+[master 9b02a4c] heroes comp
+ 5 files changed, 46 insertions(+), 1 deletion(-)
+ create mode 100644 src/app/heroes/heroes.component.css
+ create mode 100644 src/app/heroes/heroes.component.html
+ create mode 100644 src/app/heroes/heroes.component.spec.ts
+ create mode 100644 src/app/heroes/heroes.component.ts
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git push -u
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behaviour, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behaviour now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behaviour, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help configProcessing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+To https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git remote add origin https://fsegitlab.wlv.ac.uk/1218
+170/angular-tour-of-heroes.git
+fatal: remote origin already exists.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git push -u origin master
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+To https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG           Row 1    Col 1   10:26  Ctrl-K H for help
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[7m** Joe's Own Editor v4.1 ** (utf-8) ** Copyright © 2015 **
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+* Startup Log *
+* Shell 4 *
+/home/stud/0/1218170/public_html/angular-2018/
+/home/stud/0/1218170/public_html/
+/home/stud/0/1218170/
+/home/stud/0/1218170/public_html/
+/home/stud/0/1218170/public_html/angular-2018/
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 2 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 2 *
+* Startup Log *
+* Shell 3 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 2 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 2 *
+* Startup Log *
+* Shell 2 *
+* Startup Log *
+* Shell 2 *
+* Startup Log *
+* Shell 2 *
+* Startup Log *
+* Shell 1 *
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Wed Feb  7 12:44:20 2018
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+
+*** These modified files were found in JOE when it aborted on Wed Feb  7 12:44:20 2018
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Wed Feb  7 12:44:20 2018
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
