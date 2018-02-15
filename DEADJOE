@@ -3764,3 +3764,575 @@ Processing '/etc/joe/editorrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Thu Feb 15 14:48:01 2018
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Thu Feb 15 14:48:41 2018
+*** JOE was aborted because the terminal closed
+
+*** File '* Shell 3 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit -m "messages2"
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 2 and 8 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+Changes not staged for commit:
+	[31mmodified:   DEADJOE
+
+no changes added to commit
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git reset HEAD~1
+Unstaged changes after reset:
+M	DEADJOE
+M	src/app/dashboard/dashboard.component.ts
+M	src/app/hero-detail/hero-detail.component.ts
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ node_modules/@angular/cli/bin/ng build --bh /~1218170/angular-2018/an
+gular-tour-of-heroes/dist/
+Date: [1m[37m2018-02-15T14:03:51.243Z[m                                                     
+Hash: [1m[37m6fca463056c147e7533a
+Time: [1m[37m5868[m[1mms
+chunk {[1m[33minline[m[1m} [32minline.bundle.js, inline.bundle.js.map[m[1m (inline) 5.83 kB [33m[entry][32m [rendered]
+chunk {[1m[33mmain[m[1m} [32mmain.bundle.js, main.bundle.js.map[m[1m (main) 303 bytes [33m[initial][32m [rendered]
+chunk {[1m[33mpolyfills[m[1m} [32mpolyfills.bundle.js, polyfills.bundle.js.map[m[1m (polyfills) 323 bytes [33m[initial][32m [rendered]
+chunk {[1m[33mstyles[m[1m} [32mstyles.bundle.js, styles.bundle.js.map[m[1m (styles) 11.8 kB [33m[initial][32m [rendered]
+
+[1m[31mERROR in src/app/hero-detail/hero-detail.component.ts(28,5): error TS2554: Expected 0 arguments, but got 1.
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git reset HEAD~1
+Unstaged changes after reset:
+M	DEADJOE
+M	src/app/app-routing.module.ts
+M	src/app/dashboard/dashboard.component.css
+M	src/app/dashboard/dashboard.component.html
+M	src/app/dashboard/dashboard.component.spec.ts
+M	src/app/dashboard/dashboard.component.ts
+M	src/app/hero-detail/hero-detail.component.ts
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ node_modules/@angular/cli/bin/ng build --bh /~1218170/angular-2018/an
+gular-tour-of-heroes/dist/
+Date: [1m[37m2018-02-15T14:04:20.041Z[m                                                     
+Hash: [1m[37m6fca463056c147e7533a
+Time: [1m[37m4977[m[1mms
+chunk {[1m[33minline[m[1m} [32minline.bundle.js, inline.bundle.js.map[m[1m (inline) 5.83 kB [33m[entry][32m [rendered]
+chunk {[1m[33mmain[m[1m} [32mmain.bundle.js, main.bundle.js.map[m[1m (main) 303 bytes [33m[initial][32m [rendered]
+chunk {[1m[33mpolyfills[m[1m} [32mpolyfills.bundle.js, polyfills.bundle.js.map[m[1m (polyfills) 323 bytes [33m[initial][32m [rendered]
+chunk {[1m[33mstyles[m[1m} [32mstyles.bundle.js, styles.bundle.js.map[m[1m (styles) 11.8 kB [33m[initial][32m [rendered]
+
+[1m[31mERROR in src/app/hero-detail/hero-detail.component.ts(28,5): error TS2554: Expected 0 arguments, but got 1.
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git reset HEAD~1
+Unstaged changes after reset:
+M	DEADJOE
+M	src/app/app-routing.module.ts
+M	src/app/app.component.css
+M	src/app/app.component.html
+M	src/app/app.module.ts
+M	src/app/dashboard/dashboard.component.css
+M	src/app/dashboard/dashboard.component.html
+M	src/app/dashboard/dashboard.component.spec.ts
+M	src/app/dashboard/dashboard.component.ts
+M	src/app/hero-detail/hero-detail.component.css
+M	src/app/hero-detail/hero-detail.component.html
+M	src/app/hero-detail/hero-detail.component.ts
+M	src/app/heroes/heroes.component.css
+M	src/app/heroes/heroes.component.html
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ node_modules/@angular/cli/bin/ng build --bh /~1218170/angular-2018/an
+gular-tour-of-heroes/dist/
+Date: [1m[37m2018-02-15T14:04:51.065Z[m                                                     
+Hash: [1m[37m6fca463056c147e7533a
+Time: [1m[37m5065[m[1mms
+chunk {[1m[33minline[m[1m} [32minline.bundle.js, inline.bundle.js.map[m[1m (inline) 5.83 kB [33m[entry][32m [rendered]
+chunk {[1m[33mmain[m[1m} [32mmain.bundle.js, main.bundle.js.map[m[1m (main) 303 bytes [33m[initial][32m [rendered]
+chunk {[1m[33mpolyfills[m[1m} [32mpolyfills.bundle.js, polyfills.bundle.js.map[m[1m (polyfills) 323 bytes [33m[initial][32m [rendered]
+chunk {[1m[33mstyles[m[1m} [32mstyles.bundle.js, styles.bundle.js.map[m[1m (styles) 11.8 kB [33m[initial][32m [rendered]
+
+[1m[31mERROR in src/app/hero-detail/hero-detail.component.ts(28,5): error TS2554: Expected 0 arguments, but got 1.
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+fatal: Authentication failed for 'https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git/'
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+Updating 77c2031..f26d575
+error: Your local changes to the following files would be overwritten by merge:
+	src/app/app-routing.module.ts
+	src/app/app.component.css
+	src/app/app.component.html
+	src/app/app.module.ts
+	src/app/dashboard/dashboard.component.css
+	src/app/dashboard/dashboard.component.html
+	src/app/dashboard/dashboard.component.ts
+	src/app/hero-detail/hero-detail.component.css
+	src/app/hero-detail/hero-detail.component.html
+	src/app/hero-detail/hero-detail.component.ts
+	src/app/heroes/heroes.component.css
+	src/app/heroes/heroes.component.html
+Please, commit your changes or stash them before you can merge.
+Aborting
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit -m "messages2"
+On branch master
+Your branch is behind 'origin/master' by 9 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+Changes not staged for commit:
+	[31mmodified:   DEADJOE
+	[31mmodified:   src/app/app-routing.module.ts
+	[31mmodified:   src/app/app.component.css
+	[31mmodified:   src/app/app.component.html
+	[31mmodified:   src/app/app.module.ts
+	[31mmodified:   src/app/dashboard/dashboard.component.css
+	[31mmodified:   src/app/dashboard/dashboard.component.html
+	[31mmodified:   src/app/dashboard/dashboard.component.spec.ts
+	[31mmodified:   src/app/dashboard/dashboard.component.ts
+	[31mmodified:   src/app/hero-detail/hero-detail.component.css
+	[31mmodified:   src/app/hero-detail/hero-detail.component.html
+	[31mmodified:   src/app/hero-detail/hero-detail.component.ts
+	[31mmodified:   src/app/heroes/heroes.component.css
+	[31mmodified:   src/app/heroes/heroes.component.html
+
+no changes added to commit
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+Updating 77c2031..f26d575
+error: Your local changes to the following files would be overwritten by merge:
+	src/app/app-routing.module.ts
+	src/app/app.component.css
+	src/app/app.component.html
+	src/app/app.module.ts
+	src/app/dashboard/dashboard.component.css
+	src/app/dashboard/dashboard.component.html
+	src/app/dashboard/dashboard.component.ts
+	src/app/hero-detail/hero-detail.component.css
+	src/app/hero-detail/hero-detail.component.html
+	src/app/hero-detail/hero-detail.component.ts
+	src/app/heroes/heroes.component.css
+	src/app/heroes/heroes.component.html
+Please, commit your changes or stash them before you can merge.
+Aborting
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git push -u origin master
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+To https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+Updating 77c2031..f26d575
+error: Your local changes to the following files would be overwritten by merge:
+	src/app/app-routing.module.ts
+	src/app/app.component.css
+	src/app/app.component.html
+	src/app/app.module.ts
+	src/app/dashboard/dashboard.component.css
+	src/app/dashboard/dashboard.component.html
+	src/app/dashboard/dashboard.component.ts
+	src/app/hero-detail/hero-detail.component.css
+	src/app/hero-detail/hero-detail.component.html
+	src/app/hero-detail/hero-detail.component.ts
+	src/app/heroes/heroes.component.css
+	src/app/heroes/heroes.component.html
+Please, commit your changes or stash them before you can merge.
+Aborting
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+remote: Counting objects: 2, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 2 (delta 1), reused 0 (delta 0)
+Unpacking objects: 100% (2/2), done.
+From https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+   f26d575..39778c2  master     -> origin/master
+Updating 77c2031..39778c2
+error: Your local changes to the following files would be overwritten by merge:
+	DEADJOE
+	src/app/app-routing.module.ts
+	src/app/app.component.css
+	src/app/app.component.html
+	src/app/app.module.ts
+	src/app/dashboard/dashboard.component.css
+	src/app/dashboard/dashboard.component.html
+	src/app/dashboard/dashboard.component.ts
+	src/app/hero-detail/hero-detail.component.css
+	src/app/hero-detail/hero-detail.component.html
+	src/app/hero-detail/hero-detail.component.ts
+	src/app/heroes/heroes.component.css
+	src/app/heroes/heroes.component.html
+Please, commit your changes or stash them before you can merge.
+Aborting
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add -A .
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit -m "messages2"
+[master 905ebe7] messages2
+ 14 files changed, 1526 insertions(+), 112 deletions(-)
+ mode change 100755 => 100644 DEADJOE
+ rewrite src/app/app-routing.module.ts (91%)
+ mode change 100644 => 100755
+ rewrite src/app/app.module.ts (77%)
+ mode change 100644 => 100755 src/app/dashboard/dashboard.component.css
+ mode change 100644 => 100755 src/app/dashboard/dashboard.component.html
+ mode change 100644 => 100755 src/app/dashboard/dashboard.component.spec.ts
+ mode change 100644 => 100755 src/app/dashboard/dashboard.component.ts
+ rewrite src/app/heroes/heroes.component.css (95%)
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+Auto-merging src/app/hero-detail/hero-detail.component.ts
+CONFLICT (content): Merge conflict in src/app/hero-detail/hero-detail.component.ts
+CONFLICT (modify/delete): DEADJOE deleted in 39778c2d82ae40566a8b595c7c79212255189058 and modified in HEAD. Version HEAD of DEADJOE left in 
+tree.-tour-of-heroes/dist/
+Automatic merge failed; fix conflicts and then commit the result.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ node_modules/@angular/cli/bin/ng build --bh /~1218170/angular-2018/an
+gular-tour-of-heroes/dist/
+Date: [1m[37m2018-02-15T14:11:19.621Z[m                                                     
+Hash: [1m[37m6fca463056c147e7533a
+Time: [1m[37m3138[m[1mms
+chunk {[1m[33minline[m[1m} [32minline.bundle.js, inline.bundle.js.map[m[1m (inline) 5.83 kB [33m[entry][32m [rendered]
+chunk {[1m[33mmain[m[1m} [32mmain.bundle.js, main.bundle.js.map[m[1m (main) 303 bytes [33m[initial][32m [rendered]
+chunk {[1m[33mpolyfills[m[1m} [32mpolyfills.bundle.js, polyfills.bundle.js.map[m[1m (polyfills) 323 bytes [33m[initial][32m [rendered]
+chunk {[1m[33mstyles[m[1m} [32mstyles.bundle.js, styles.bundle.js.map[m[1m (styles) 11.8 kB [33m[initial][32m [rendered]
+
+[1m[31mERROR in src/app/hero-detail/hero-detail.component.ts(28,1): error TS1185: Merge conflict marker encountered.
+[1m[31msrc/app/hero-detail/hero-detail.component.ts(30,1): error TS1185: Merge conflict marker encountered.
+[1m[31msrc/app/hero-detail/hero-detail.component.ts(32,1): error TS1185: Merge conflict marker encountered.
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 10 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+Unmerged paths:
+  (use "git add/rm <file>..." as appropriate to mark resolution)
+
+	[31mdeleted by them: DEADJOE
+	[31mboth modified:   src/app/hero-detail/hero-detail.component.ts
+
+no changes added to commit (use "git add" and/or "git commit -a")
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+error: Pull is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add -A .
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 10 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+	[32mmodified:   src/app/hero-detail/hero-detail.component.ts
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git commit -m "messages2"
+[master 1f2451a] messages2
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git push -u origin master
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+Counting objects: 14, done.
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (14/14), 2.43 KiB | 0 bytes/s, done.
+Total 14 (delta 12), reused 0 (delta 0)
+To https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes.git
+   39778c2..1f2451a  master -> master
+Branch master set up to track remote branch master from origin.
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ node_modules/@angular/cli/bin/ng build --bh /~1218170/angular-2018/an
+gular-tour-of-heroes/dist/
+Date: [1m[37m2018-02-15T14:13:56.232Z[m                                                     
+Hash: [1m[37m6fca463056c147e7533a
+Time: [1m[37m3245[m[1mms
+chunk {[1m[33minline[m[1m} [32minline.bundle.js, inline.bundle.js.map[m[1m (inline) 5.83 kB [33m[entry][32m [rendered]
+chunk {[1m[33mmain[m[1m} [32mmain.bundle.js, main.bundle.js.map[m[1m (main) 303 bytes [33m[initial][32m [rendered]
+chunk {[1m[33mpolyfills[m[1m} [32mpolyfills.bundle.js, polyfills.bundle.js.map[m[1m (polyfills) 323 bytes [33m[initial][32m [rendered]
+chunk {[1m[33mstyles[m[1m} [32mstyles.bundle.js, styles.bundle.js.map[m[1m (styles) 11.8 kB [33m[initial][32m [rendered]
+
+[1m[31mERROR in src/app/hero-detail/hero-detail.component.ts(28,1): error TS1185: Merge conflict marker encountered.
+[1m[31msrc/app/hero-detail/hero-detail.component.ts(30,1): error TS1185: Merge conflict marker encountered.
+[1m[31msrc/app/hero-detail/hero-detail.component.ts(32,1): error TS1185: Merge conflict marker encountered.
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 5), reused 0 (delta 0)
+Unpacking objects: 100% (6/6), done.
+From https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+   1f2451a..5b11eab  master     -> origin/master
+Updating 1f2451a..5b11eab
+Fast-forward
+ src/app/hero-detail/hero-detail.component.ts | 4 [31m----
+ 1 file changed, 4 deletions(-)
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ node_modules/@angular/cli/bin/ng build --bh /~1218170/angular-2018/angular-tour-of-heroes/dist/
+Date: [1m[37m2018-02-15T14:16:33.129Z[m                                                     
+Hash: [1m[37m6fca463056c147e7533a
+Time: [1m[37m5333[m[1mms
+chunk {[1m[33minline[m[1m} [32minline.bundle.js, inline.bundle.js.map[m[1m (inline) 5.83 kB [33m[entry][32m [rendered]
+chunk {[1m[33mmain[m[1m} [32mmain.bundle.js, main.bundle.js.map[m[1m (main) 303 bytes [33m[initial][32m [rendered]
+chunk {[1m[33mpolyfills[m[1m} [32mpolyfills.bundle.js, polyfills.bundle.js.map[m[1m (polyfills) 323 bytes [33m[initial][32m [rendered]
+chunk {[1m[33mstyles[m[1m} [32mstyles.bundle.js, styles.bundle.js.map[m[1m (styles) 11.8 kB [33m[initial][32m [rendered]
+
+[1m[31mERROR in src/app/hero-detail/hero-detail.component.ts(28,5): error TS2554: Expected 0 arguments, but got 1.
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ cd ../
+1218170@csl-student:~/public_html/angular-2018$ cd ../
+1218170@csl-student:~/public_html$ cd ../
+1218170@csl-student:~$ cd ../
+1218170@csl-student:/home/stud/0$ chmod 775 -R public_html
+chmod: cannot access 'public_html': No such file or directory
+1218170@csl-student:/home/stud/0$ cd ../
+1218170@csl-student:/home/stud$ chmod 775 -R public_html
+chmod: cannot access 'public_html': No such file or directory
+1218170@csl-student:/home/stud$ cd public_html
+bash: cd: public_html: No such file or directory
+1218170@csl-student:/home/stud$ 
+1218170@csl-student:/home/stud$ 
+1218170@csl-student:/home/stud$ 
+1218170@csl-student:/home/stud$ 
+1218170@csl-student:/home/stud$ 
+1218170@csl-student:/home/stud$ 
+1218170@csl-student:/home/stud$ 
+1218170@
+csl-stud
+ent:/hom
+e/stud$ 
+*** File '* Shell 4 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 2 and 8 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   DEADJOE
+
+no changes added to commit (use "git add" and/or "git commit -a")
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add -A .
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ 
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git checkout --
+M	DEADJOE
+Your branch and 'origin/master' have diverged,
+and have 2 and 8 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add -A .
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 2 and 8 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   DEADJOE
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git reset HEAD
+Unstaged changes after reset:
+M	DEADJOE
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG                          Row 1    Col 1    2:48  Ctrl-K H for help
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[7m** Joe's Own Editor v4.1 ** (utf-8) ** Copyright © 2015 **
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 3 *
+/home/stud/0/1218170/public_html/angular-2018/
+/home/stud/0/1218170/public_html/
+/home/stud/0/1218170/
+/home/stud/0/
+/home/stud/
+/home/stud/
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Thu Feb 15 14:48:41 2018
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+* Startup Log *
+* Shell 4 *
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Thu Feb 15 14:48:41 2018
+*** JOE was aborted by UNIX signal 1
+
+*** File '* Shell 4 *'
+
+Type joehelp for editor shell commands
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 2 and 8 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   DEADJOE
+
+no changes added to commit (use "git add" and/or "git commit -a")
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add -A .
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ 
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git checkout --
+M	DEADJOE
+Your branch and 'origin/master' have diverged,
+and have 2 and 8 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git add -A .
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 2 and 8 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   DEADJOE
+
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git reset HEAD
+Unstaged changes after reset:
+M	DEADJOE
+1218170@csl-student:~/public_html/angular-2018/angular-tour-of-heroes$ git pull
+Username for 'https://fsegitlab.wlv.ac.uk': 1218170
+Password for 'https://1218170@fsegitlab.wlv.ac.uk': 
+[7m    I    ~/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG                          Row 1    Col 1    2:00  Ctrl-K H for help
+Merge branch 'master' of https://fsegitlab.wlv.ac.uk/1218170/angular-tour-of-heroes
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[7m** Joe's Own Editor v4.1 ** (utf-8) ** Copyright © 2015 **
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 4 *
+* Startup Log *
+* Shell 3 *
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Thu Feb 15 14:48:41 2018
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+* Startup Log *
+* Shell 4 *
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Thu Feb 15 14:48:41 2018
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+/home/stud/0/1218170/public_html/angular-2018/angular-tour-of-heroes/.git/MERGE_MSG
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
